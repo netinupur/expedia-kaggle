@@ -1,5 +1,6 @@
 ### Data Preparation
 
+
 #### 1. Handle Null Values
 
 There are three variables (srch_in, srch_co, and orig_destination_distance) that have missing values. 
