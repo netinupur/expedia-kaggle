@@ -1,11 +1,13 @@
 # expedia-kaggle
 
 
-## Project Description
+### Project Description
 
 The goal of the project(https://www.kaggle.com/c/expedia-hotel-recommendations) is to build a model that better
 recommend hotel clusters (Expedia groups hotels into 100 different clusters.) to customers according to their
-searching criteria. The given variables provide information regarding when, what, where, and how does a customer
+searching criteria. 
+
+The given variables provide information regarding when, what, where, and how does a customer
 search for a hotel and ultimately if they ended up booking.
 
 
@@ -15,7 +17,7 @@ search for a hotel and ultimately if they ended up booking.
 | [Section 01: GBM Model](1_GBM_Model) |
 | [Section 02: Neural Networks Model](2_Neural_Networks_Model) |
 
-## Conclusion
+### Conclusion
 
 In conclusion, we ended up using the neural networks as our champion model. When considering the model has to
 take into account multi-class target variables, and numerous predictors, it makes sense that neural networks model
