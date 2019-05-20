@@ -28,7 +28,8 @@ We kept the hotel location related variables at the market level because the cou
 #### 4. Drop Incorrect or Unnecessary Data
 All rows where the search date is after search check-in date was deleted due to insufficient information regarding
 time zone.
-All unnecessary variables in the following were dropped. (Variables are dropped in SAS)
+All unnecessary variables in the following were dropped. 
+(Variables are dropped in SAS)
 *Srch_date, user_location_country, user_location_region, user_location_city, hotel_continent,
 hotel_country, hotel_market, site_nam,e posa_continent, orig_destination_distance, is_mobile,
 srch_destination_id, user_id, is_booking*
