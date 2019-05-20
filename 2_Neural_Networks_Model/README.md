@@ -1,14 +1,16 @@
+## Neural Networks Model 
+
 A neural network was used to represent the non-linear nature of the relationship between the hotel clusters and the
 independent variables and to handle the complexity of classifying into 100 classes.
 
-### Pre-processing for Neural Network
+#### 1. Pre-processing for Neural Network
 
 - The target variables cluster labels were converted to numeric levels using the LabelEncoder from
 scikit-learn. This does not create an ordered list, however, it assigns a number to each level of the target
 variable.
 - The x variables were standardized to values between 0 and 1 using the StandardScaler package.
 
-### Building the model
+#### 2. Building the model
 
 - After multiple iterations, the following model was found to result in the best accuracy metrics on both
 training and the test data:
@@ -23,7 +25,7 @@ Since the target had 100 levels, the probability of being correct by randomly as
 accuracy rates were fair. Our evaluation metrics were not too different between the training data and the test data.
 Thus, we can be reasonably sure that we have not over-fitted/under-fitted on the training data.
 
-### Picking the top 5 clusters
+#### 3. Picking the top 5 clusters
 
 - Since the problem statement asked for a recommendation of the top 5 most probable hotel clusters, we
 extract the labels with the top 5 probabilities for each observation row. We calculate the Mean Average
