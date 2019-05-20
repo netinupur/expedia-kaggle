@@ -11,9 +11,9 @@ search for a hotel and ultimately if they ended up booking.
 
 | Contents |
 |---|
-| [Section 00: Data Preparation](0_Data_Preparation/README.md) |
-| [Section 01: GBM Model](1_GBM_Model/README.md) |
-| [Section 02: Neural Networks Model](2_Neural_Networks_Model/README.md) |
+| [Section 00: Data Preparation](0_Data_Preparation) |
+| [Section 01: GBM Model](1_GBM_Model) |
+| [Section 02: Neural Networks Model](2_Neural_Networks_Model) |
 
 ## Conclusion
 
