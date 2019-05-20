@@ -1,4 +1,4 @@
-# expedia-kaggle
+# Kaggle Project: Expedia Hotel Recommendations
 
 
 ### Project Description
